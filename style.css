@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    background-color: #fff5e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.card, .letter-container {
+    width: 90%;
+    max-width: 360px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/ Página principal /
+.flower {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #f57c00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background: #d45a00;
+}
+
+/ Página de la carta */
+.letter-container h1 {
+    font-size: 24px;
+    color: #d45a00;
+    margin-bottom: 15px;
+}
+
+.letter-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
